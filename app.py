@@ -132,4 +132,5 @@ if __name__ == "__main__":
     os.makedirs(os.path.join(basedir, "instance"), exist_ok=True)
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    app.run(debug=False)
+
